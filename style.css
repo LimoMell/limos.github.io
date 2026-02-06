@@ -1,4 +1,96 @@
-html {
-    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+* {
+    box-sizing: border-box;
 }
 
+html {
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    background: #fff;
+    color: #000;
+}
+
+body {
+    margin: 0;
+    background: #fff;
+    color: #000;
+}
+
+.top {
+    background: #000;
+    color: #fff;
+    padding: 1.5rem 1rem;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.top .logo {
+    height: 2rem;
+    width: auto;
+    display: block;
+}
+
+.top .name {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.middle {
+    max-width: 42rem;
+    margin: 0 auto;
+    padding: 1.5rem 1rem;
+    background: #fff;
+    color: #000;
+}
+
+.middle h2 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-bottom: 1px solid #000;
+    padding-bottom: 0.25rem;
+}
+
+.middle h2:first-child {
+    margin-top: 0;
+}
+
+.middle h3 {
+    margin: 1rem 0 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.middle p {
+    margin: 0 0 1rem;
+    line-height: 1.5;
+}
+
+.middle a {
+    color: #000;
+    text-decoration: underline;
+}
+
+.middle a:hover {
+    text-decoration: none;
+}
+
+.middle img {
+    display: block;
+    border: 1px solid #000;
+}
+
+.bottom {
+    background: #000;
+    color: #fff;
+    padding: 1rem;
+    margin-top: 2rem;
+    border: none;
+}
+
+.bottom p {
+    margin: 0;
+    font-size: 0.875rem;
+}
